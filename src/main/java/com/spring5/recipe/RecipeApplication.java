@@ -1,4 +1,4 @@
-package com.spring5.recipe.recipe;
+package com.spring5.recipe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

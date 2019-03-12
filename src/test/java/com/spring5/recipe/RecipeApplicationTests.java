@@ -1,4 +1,4 @@
-package com.spring5.recipe.recipe;
+package com.spring5.recipe;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

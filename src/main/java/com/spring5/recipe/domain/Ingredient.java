@@ -1,8 +1,9 @@
-package com.spring5.recipe.recipe.domain;
+package com.spring5.recipe.domain;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 
+@Entity
 public class Ingredient {
 
 	@Id
@@ -17,6 +18,15 @@ public class Ingredient {
 
 	@ManyToOne
 	private Recipe recipe;
+
+	public Ingredient() {
+	}
+
+	public Ingredient(String description, BigDecimal amount, UnitOfMeasure unitOfMeasure) {
+		this.description = description;
+		this.amount = amount;
+		this.unitOfMeasure = unitOfMeasure;
+	}
 
 	public Long getId() {
 		return id;

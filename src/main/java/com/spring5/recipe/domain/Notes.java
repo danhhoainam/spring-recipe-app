@@ -1,7 +1,8 @@
-package com.spring5.recipe.recipe.domain;
+package com.spring5.recipe.domain;
 
 import javax.persistence.*;
 
+@Entity
 public class Notes {
 
 	@Id
